@@ -21,6 +21,7 @@ nav:
     - Writing Standards: topics/writing-standards.md
     - Developer Workflow: topics/developer-workflow.md
     - Programming Languages: topics/programming-languages.md
+    - React: topics/react.md
     - Node.js: topics/node-js.md
     - Git: topics/git.md
     - GitHub: topics/github.md
@@ -29,4 +30,3 @@ nav:
     - Third Party Services: topics/third-party-services.md
     - Web API Frameworks: topics/web-api-frameworks.md
     - Security: topics/security.md
-    
