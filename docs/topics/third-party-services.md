@@ -104,11 +104,37 @@ Exceptions:
 
 ## (TH-140) Approved Domain Registrars
 
-The only permitted domain registration for Lambda School Labs projects are
-listed below:
+The only permitted domain registration providers for Lambda School Labs projects
+are listed below:
 
 * Namecheap
     * ❗️Only when provisioned using the Labs Tech Provisioning Process
+
+All other services are prohibited from use.
+
+Rationale:
+
+* Standardizing on a small number of services allows for students and staff to
+  better share knowledge and code
+
+Alternatives:
+
+* None
+
+Exceptions:
+
+* None
+
+---
+
+## (TH-145) Approved DNS Providers
+
+The only permitted DNS providers for Lambda School Labs projects are
+listed below:
+
+* Route53
+* PointDNS
+    * ❗️Only as required for Heroku deployments
 
 All other services are prohibited from use.
 
