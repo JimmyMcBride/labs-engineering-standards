@@ -74,3 +74,36 @@ Rationale:
 Exceptions:
 
 - None
+
+---
+
+## (CQ-130) Never Hardcode Data
+
+Data is anything that could potentially change between runtime environments or
+over time during runtime.
+
+This includes:
+
+- URLs
+- User data
+    - Email addresses
+    - Usernames
+    - Addresses
+- Identifiers for accessing external resources (e.g. OAuth Client ID)
+
+Data must _always_ be stored in an external persistent store, like a database, or
+passed to the program as an environment variable. When in doubt, you probably should
+consider using a database or environment variable to pass data to a program.
+
+Rationale:
+
+- Data changes over time and if you hardcode it, you will need to redeploy your
+  application in order to update the data. If you use a database or environment
+  variable, you can change the data without requiring a new deployment.
+- While hardcoded data may not qualify as a secret, it still may be considered
+  sensitive. For example, a hardcoded email address can be easily discovered in
+  GitHub and used to send spam or for phishing attacks.
+
+Exceptions:
+
+- None
