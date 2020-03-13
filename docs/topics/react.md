@@ -12,7 +12,7 @@ Only the following Node.js package managers are approved for projects in Labs:
 Rationale:
 
 - Within the landscape of React state management frameworks, there are many
-  viable solutions, none of which fit all scenarios. Therefor it is likely that
+  viable solutions, none of which fit all scenarios. Therefore it is likely that
   several frameworks will be permitted to meet the needs of various applications.
 
 Alternatives:
