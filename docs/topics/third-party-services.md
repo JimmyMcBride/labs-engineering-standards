@@ -274,7 +274,10 @@ Exceptions:
 The only permitted user analytics services for Lambda School Labs projects are
 listed below:
 
-* Google Analytics
+* [Google Analytics](https://analytics.google.com/)
+* [Mixpanel](https://mixpanel.com/)
+* [Segment](https://segment.com/) - may be used to route analytics calls to
+  Google Analytics _and_ Mixpanel.
 
 All others are prohibited from use.
 
