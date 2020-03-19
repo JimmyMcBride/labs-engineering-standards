@@ -8,6 +8,8 @@ Only the following Node.js package managers are approved for projects in Labs:
     - Version > 7.1
 - [Context API](https://reactjs.org/docs/context.html)
     - N/A
+- [Apollo Client](https://www.apollographql.com/docs/react/)
+    - Version > 2.6
 
 Rationale:
 
