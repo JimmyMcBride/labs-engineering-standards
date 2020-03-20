@@ -1,6 +1,6 @@
 # Git
 
-## (GIT-100) Git Basics
+## (GT-100) Git Basics
 
 Basic git commands (as outlined in the [Web Training Kit](https://learn.lambdaschool.com/web1/module/rect59e95N6OSvoCd))
 should be understood.
@@ -16,7 +16,7 @@ Exceptions:
 
 ---
 
-## (GT-110) Only Branch from Master
+## (GT-200) Only Branch from Master
 
 All branches must be created from the Master branch
 
@@ -30,7 +30,28 @@ Exceptions:
 
 ---
 
-## (CQ-120) Cleanup merged branches
+## (GT-300) Feature Branch Naming
+
+Per GT-200, repositories should only contain a single `master` branch and zero
+or more feature branches.
+
+Feature branches must be named: `feature/<descriptive name>`
+
+For example, if you're working on a feature that allows users to change the email
+address in their profile, the branch should be named `feature/change-email`
+
+Rationale:
+
+- Without a good naming convention, it is very easy to lose track of the purpose
+  of a branch
+
+Exceptions:
+
+- None
+
+---
+
+## (GT-400) Delete Merged Branches
 
 After a branch has been merged to master, it must be immediately delete.
 
