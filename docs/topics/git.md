@@ -1,22 +1,6 @@
 # Git
 
-## (GT-100) Git Basics
-
-Basic git commands (as outlined in the [Web Training Kit](https://learn.lambdaschool.com/web1/module/rect59e95N6OSvoCd))
-should be understood.
-
-Rationale:
-
-- Basic git branching is required for teams to work effectively; avoiding
-  complications and delays.
-
-Exceptions:
-
-- None
-
----
-
-## (GT-200) Only Branch from Master
+## (GT-100) Only Branch from Master
 
 All branches must be created from the Master branch
 
@@ -30,7 +14,7 @@ Exceptions:
 
 ---
 
-## (GT-300) Feature Branch Naming
+## (GT-200) Feature Branch Naming
 
 Per GT-200, repositories should only contain a single `master` branch and zero
 or more feature branches.
@@ -51,7 +35,7 @@ Exceptions:
 
 ---
 
-## (GT-400) Delete Merged Branches
+## (GT-300) Delete Merged Branches
 
 After a branch has been merged to master, it must be immediately delete.
 
