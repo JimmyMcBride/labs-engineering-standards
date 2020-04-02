@@ -50,11 +50,13 @@ ratified by approval from 3 Labs Tech Leads.
     - `> pipenv install --dev`
 2. Start a pipenv shell
     - `> pipenv shell`
-3. Run the markdown linter to confirm a clean start
-    - `> markdownlint -c .markdownlint.json .`
-4. Run the mkdocs server to build and view you local changes
+3. Run the mkdocs server to build and view you local changes
     - `> mkdocs serve`
     - Now open browser to `http://localhost:8000`
+4. install markdown linter
+    - `> npm install -g markdownlint-cli`
+5. Run the markdown linter before commiting
+    - `> markdownlint -c .markdownlint.json .`
 
     !!! Warning
         be aware that `mkdocs serve` serves the files directly from the docs
