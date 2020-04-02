@@ -22,6 +22,26 @@ Rationale:
 
 Exceptions:
 
+- TLs will be put into a cohort admin team with `Admin` role only on all
+  cohort repos.
+
+---
+
+## (GH-102) GitHub Cohort Admin Teams
+
+GitHub Cohort Admin teams need to be created using the following convention:
+
+- Name: `<Cohort> - Admins`  (Example: `Labs 20 - Admins`)
+
+Rationale:
+
+- Github repos don't allow a user to be added in addition to their team with
+  different roles. In order to allow TLs to be admins on their repos we need to
+  create this admins team so they can integrate the repo with external services
+  eg. Heroku and AWS.
+
+Exceptions:
+
 - None
 
 ---
@@ -65,12 +85,14 @@ Exceptions:
 GitHub project team membership and team roles will be as follows:
 
 - Section Lead ⇒ Maintainer
-- Team Lead ⇒ Maintainer
+- Team Lead ⇒ Admin
 - Student ⇒ Member
 
 Rationale:
 
 - Least privilege access
+- The `<cohort> - Admins` team will need to be added to each repo with
+  admin role.
 
 Exceptions:
 
