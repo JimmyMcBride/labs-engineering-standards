@@ -36,7 +36,7 @@ ratified by approval from 3 Labs Tech Leads.
 
     See [Writing Standards](topics/writing-standards.md)
 
-### Setup your local enviornment
+### Setup your local environment
 
 !!! Info
     All steps below are based on the use of [pipenv](https://pipenv.kennethreitz.org/en/latest/)
@@ -46,7 +46,7 @@ ratified by approval from 3 Labs Tech Leads.
     The github actions still require a `requirements.txt` file so if you add anything
     to the `Pipfile` you will also need to add it to the `requirements.txt` file.
 
-1. Install all dependancies and setup a python virtual env
+1. Install all dependencies and setup a python virtual env
     - `> pipenv install --dev`
 2. Start a pipenv shell
     - `> pipenv shell`
