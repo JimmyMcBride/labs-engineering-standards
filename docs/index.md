@@ -25,7 +25,7 @@ a discussion.
 ## Contributing
 
 These standards will morph over time as we adapt to the ever-changing technology
-landscape. In addition, the stardards will embrace a subset of all of the
+landscape. In addition, the standards will embrace a subset of all of the
 available technologies, so that teams have options when making technical
 decisions. To in order to ensure that these documents are inclusive of the needs
 of all Labs groups, each new standard or change to an existing standard will be
