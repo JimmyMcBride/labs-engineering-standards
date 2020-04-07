@@ -12,7 +12,7 @@ Workflow for all Lab products must follow the diagram below.
 
 ---
 
-The following video uses a basic node app on heroku to demostrate just the git workflow
+The following video uses a basic node app on heroku to demonstrate just the git workflow
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HKnuaH6Dpio"
   frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
